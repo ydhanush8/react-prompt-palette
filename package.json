@@ -1,13 +1,13 @@
 {
   "name": "react-prompt-palette",
   "version": "1.0.3",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "dist/index.cjs",              
+  "module": "dist/index.js",              
+  "types": "dist/index.d.ts",             
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": "./dist/index.js",        
+      "require": "./dist/index.cjs"       
     }
   },
   "files": [
