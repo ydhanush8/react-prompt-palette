@@ -1,6 +1,6 @@
 {
   "name": "react-prompt-palette",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -13,6 +13,7 @@
   "files": [
     "dist"
   ],
+  "sideEffects": false,
   "keywords": [
     "react",
     "prompts",
